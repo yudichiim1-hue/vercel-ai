@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/ivr(.*)", "destination": "/api/ivr.js" },
+    { "source": "/(.*)", "destination": "/api/ivr.js" }
+  ],
+  "functions": {
+    "api/ivr.js": {
+      "maxDuration": 60,
+      "memory": 1024
+    }
+  }
+}

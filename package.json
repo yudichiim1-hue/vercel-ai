@@ -1,0 +1,22 @@
+{
+  "name": "yemot-vercel-ivr",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Yemot HaMashiach IVR server built on yemot-router2 for Vercel",
+  "main": "api/ivr.js",
+  "scripts": {
+    "start": "node api/ivr.js",
+    "dev": "node api/ivr.js"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "form-data": "^4.0.1",
+    "yemot-router2": "^6.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
